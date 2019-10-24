@@ -22,7 +22,7 @@ describe("password_is_valid", function() {
   });
 
   it("should have at least one number", function() {
-    expect(password_is_valid("lnd5jnCVsd")).toBe(true);
+    expect(password_is_valid("lnd5jnCVsd1")).toBe(true);
   });
 
   it("should throw an exception when password is invalid", function() {
